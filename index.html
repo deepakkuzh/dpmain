@@ -16,6 +16,20 @@
 <script type="text/javascript" src="js/garden.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
 
+<script type="text/javascript">
+if (window.innerWidth <= 768) {
+    setTimeout(function () {
+        $("#loveu").fadeIn(2000);
+        setTimeout(function () {
+            $("#messages").fadeIn(2000);
+            $('html, body').animate({
+                scrollTop: $("#messages").offset().top
+            }, 1000);
+        }, 4000);
+    }, 1000);
+}
+</script>
+
 </head>
 
 <body>

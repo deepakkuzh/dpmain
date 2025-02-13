@@ -139,16 +139,16 @@ body {
     margin: 20px;
 }
 
-/* Responsive Design for Smartphones */
+/* Responsive Design for Smartphones with Larger Fonts */
 @media screen and (max-width: 768px) {
     body {
-        font-size: 20px;
+        font-size: 24px; /* Increased font size */
     }
 
     #mainDiv {
         flex-direction: column;
         align-items: center;
-        padding: 10px;
+        padding: 15px;
     }
 
     #loveHeart {
@@ -160,27 +160,37 @@ body {
 
     #words {
         width: 100%;
-        font-size: 24px;
+        font-size: 30px; /* Larger font */
     }
 
     #messages {
-        font-size: 22px;
+        font-size: 28px; /* Bigger "Thanks for being with me" */
+        font-weight: bold;
+    }
+
+    #elapseClock {
+        font-size: 26px; /* Bigger clock */
     }
 
     #loveu {
-        font-size: 20px;
+        font-size: 26px; /* Larger "With love, Deepak" */
     }
 
     #loveu .signature {
-        font-size: 18px;
+        font-size: 24px; /* Larger signature */
+    }
+
+    #giftMessage {
+        font-size: 26px; /* Bigger "Touch the heart" message */
+        font-weight: bold;
     }
 
     #icon {
-        font-size: 36px;
+        font-size: 54px; /* Bigger heart icon */
     }
 
     #code {
         width: 100%;
-        font-size: 10px;
+        font-size: 14px; /* More readable code text */
     }
 }
